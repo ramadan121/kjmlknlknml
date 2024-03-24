@@ -1,0 +1,447 @@
+.main{
+    background-image: url(./WhatsApp_Image_2024-03-21_at_01.59.10_9933c949-removebg-preview.png);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    background-color:white;
+    
+
+}
+/* Add CSS styles for the menu icon */
+.menu-icon {
+    display: none; /* Initially hide the menu icon */
+    cursor: pointer;
+}
+
+/* CSS for the menu container */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Media query for screens with a maximum width of 767px (mobile screens) */
+
+nav .logo{
+    display: flex;
+    width: 140px;
+
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top:50px ;
+
+}
+nav ul,li{
+    list-style: none;
+}
+nav ul,li,a{
+    text-decoration: none;
+    color:black;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top:250px;
+
+}
+.main1 h1,p{
+    color: black;
+}
+.about1{
+    /* background-color:rgb(37, 37, 218); */
+    height:120vh;
+}
+.about2 h2{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+   padding: 20px 0px;
+   font-family: fantasy;
+   font-size: 40px;
+
+}
+
+.about3{
+    padding: 2rem;
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+    /* position: absolute; */
+
+}
+.about3 .image-bout {
+    display: flex;
+  
+   width: 200px;
+   height: 200px;
+
+    margin-left: 650px;
+  
+    
+   
+}
+.about3 h2{
+    width: 400px;
+   position: absolute;
+left: 20px;  
+
+    
+}
+.about3 p{
+    width: 400px;
+    /* margin-bottom: 10px; */
+    color: rgb(10, 8, 8);
+    position: absolute;
+    margin-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about3  h2{
+color: #000000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+margin-bottom: 80px;
+  
+
+}
+.about4{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    margin-top: 50px;
+ 
+}
+.about4 ,p{
+    color:black;
+    padding: 20px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .about-image img{
+   display: flex;
+
+    
+
+  
+    box-shadow: 4px 10px 10px rgb(37, 37, 218);
+    
+    
+} 
+.service1{
+  padding: 2rem;
+  background-color: white;
+  display:flex 
+  ;
+  flex-direction: column;
+
+
+}
+.service1 h2{
+    display: flex;
+    color: black;
+    font-size: 40px;
+    justify-content: center;
+    font-family: fantasy;
+
+    
+}
+.service2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+ 
+
+
+  
+}
+
+
+.service2 img{
+    background-color: rgb(37, 37, 218);
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 4px 10px 10px rgb(37, 37, 218);
+    width: 300px;
+    height: 300px;
+    
+}
+.service3 {
+    display: flex;
+    
+
+
+}
+.service3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.service3 ul li{
+    text-decoration: dotted;
+    color: white;
+  
+}
+.service3 p{
+    display: flex;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  width: 700px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+
+} .readmore{
+    text-decoration: underline;
+}
+
+
+
+.benefits .title{
+    padding: 3rem;
+}
+.card-benefits{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+      padding: 0px 60px;
+   
+}
+.benefits .benefits-contant{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+   border: 2px solid yellow;
+
+height: 400px;
+  
+}
+.benefits .benefits-contant img{
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 20px;
+}
+.benefits .benefits-contant i{
+   
+    margin-right: 200px;
+    
+}
+.benefits .benefits-contant p{
+    padding: 20px  ;
+    width: 300px;
+}
+.contact-cards{
+    display: flex;
+    justify-content:space-between;
+  
+   gap: 20px;
+ /* background-color: rgb(37, 37, 218); */
+}
+.contact-cards .contact{
+    display: flex;
+  
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 300px;
+    /* margin: 3rem; */
+    
+    
+}
+.contact-h2{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 40px;
+
+
+}
+.contact-cards .contact h2{
+/* padding: 10px 10px; */
+ color: black;
+ text-transform: capitalize;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-cards .contact p{
+    margin-left:10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 22px;
+}
+.contact-cards .contact i {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+} 
+.contact-cards .contact p:hover{
+  
+    color: rgb(178, 177, 177);
+    transition: 0.5s;
+}
+.contact-cards .contact i:hover{
+  
+    color: rgb(178, 177, 177);
+    transition: 0.5s;
+}
+footer p{ 
+  display: flex;
+  justify-content: center;
+color: rgb(16, 7, 7);
+text-transform: capitalize;
+
+
+}
+.return-home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.return-home a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Adjust the icon size */
+.return-home i {
+    font-size: 24px;
+}
+
+/* For screens with a maximum width of 767px (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+    .main {
+        /* Remove background image on mobile */
+        height: 280px; /* Let the height adjust dynamically */
+       padding-top: 80px;
+    }
+    
+    .nav .logo {
+        width: 100px; /* Adjust logo size for smaller screens */
+    }
+
+    nav ul {
+        display: none; /* Hide the menu items by default on mobile */
+        flex-direction: column;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        position: absolute;
+        top: 70px;
+        right: 20px;}
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+    
+    .about3 {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .about3 .image-bout {
+        margin: 0 auto; /* Center image on smaller screens */
+        margin-top: 280px; /* Add some spacing between text and image */
+        margin-left:50px;
+        width: 400px;
+        height: 300px;
+        
+    }
+    .about2 h2{
+     font-family: fantasy;
+  font-size: 30px;
+    }
+    
+
+    .about3 h2{
+        padding: 0;
+        margin-top: 2px;
+        margin-left: 20px;
+        font-family: fantasy;
+        
+    }
+    .about3 p {
+        width: auto; /* Let the text width adjust dynamically */
+        text-align: center; /* Center text on smaller screens */
+        margin: 20px; /* Remove any margin */
+        padding-top: 27px; /* Add some padding for better readability */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .service1 h2{
+      
+        font-family: fantasy;
+        font-size: 30px;
+    }
+
+    .service2 {
+        
+        flex-direction: column; /* Stack service content vertically */
+        align-items: center; /* Center items */
+        margin-bottom: 200px;
+       
+        
+    }
+    .service3 p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 400px;
+    }
+ .contact-h2{ 
+      font-family: fantasy;
+    font-size: 40px;}
+
+    .service2 img {
+        width: 100%; /* Make images fill the container width */
+        height: auto; /* Let height adjust dynamically */
+        margin: 20px 0; /* Add some spacing between images */
+    }
+
+    .contact-cards {
+        flex-direction: column; /* Stack contact cards vertically */
+        align-items: center; /* Center items */
+        gap: 20px; /* Add some spacing between cards */
+        
+    }
+
+    .contact-cards .contact {
+        margin: 0; /* Remove any margin */
+        width: 100%; /* Make contacts occupy full width */
+        text-align: center; /* Center text */
+    }
+   
+        .menu-icon {
+            display: block; /* Show the menu icon */
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            
+        }
+    
+       
+    
+    
+       
+    }
+    
+
